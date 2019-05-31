@@ -7,12 +7,15 @@ namespace MarcusJaschen\Collmex\Tests\Unit\Csv;
 use MarcusJaschen\Collmex\Csv\SimpleGenerator;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \MarcusJaschen\Collmex\Csv\SimpleGenerator
+ */
 class SimpleGeneratorTest extends TestCase
 {
     /**
      * @var SimpleGenerator
      */
-    protected $generator;
+    private $generator = null;
 
     protected function setUp(): void
     {
